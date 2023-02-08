@@ -7,3 +7,8 @@ data[1] = "ha!"; // this is not variable reassignment!
 console.log(data); // expected output: [10, 'ha!', 30]
 
 // note that arrays can contain a mix of data types
+
+
+const ages=[1,2,3,4,5]
+ages[4]="Lukelo"
+console.log(`the ages are ${ages}`)
